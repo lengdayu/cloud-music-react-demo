@@ -65,7 +65,7 @@ body, html, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, header, menu, sectio
   }
   
   .sprite_01 {
-    background: url(../img/sprite_01.png) no-repeat 0 9999px;
+    background: url(../img/sprite_01.png) no-repeat;
   }
   
   .sprite_02 {
