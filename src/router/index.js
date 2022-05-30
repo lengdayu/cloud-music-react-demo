@@ -1,3 +1,5 @@
+import { Navigate } from "react-router-dom";
+
 import Discover from "@/pages/discover";
 import Friend from "@/pages/friend";
 import Mine from "@/pages/mine";
@@ -7,6 +9,10 @@ const routes = [
   {
     path: "/",
     element: <Discover></Discover>,
+  },
+  {
+    path: "/discover",
+    element: <Navigate to={"/"}></Navigate>,
   },
   {
     path: "/friend",
