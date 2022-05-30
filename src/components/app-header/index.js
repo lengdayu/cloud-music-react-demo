@@ -37,7 +37,7 @@ const AppHeader = memo(() => {
         </HeaderLeft>
         <HeaderRight>
           <div className="inputWrap">
-            <div className="content">
+            <div className="inputContent">
               <input type="text" placeholder="音乐/视频/电台/用户" />
             </div>
           </div>

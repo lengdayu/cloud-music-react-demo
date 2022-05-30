@@ -87,7 +87,7 @@ export const HeaderRight = styled.div`
     background-image: url(${require("../../assets/img/sprite_01.png")});
     background-position: 5px -100px;
 
-    .content {
+    .inputContent {
       margin-top: 8px;
       margin-left: 20px;
       position: relative;
