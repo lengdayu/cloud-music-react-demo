@@ -26,14 +26,12 @@ export const Wrapper = styled.div`
         padding: 4px 13px 0;
         text-align: center;
         text-decoration: none;
-        background-color: #9b0909;
-        border-radius: 20px;
       }
 
+      a:hover,
       a.active {
         border-radius: 20px;
         background-color: #9b0909;
-        padding: 0 13px;
       }
     }
   }

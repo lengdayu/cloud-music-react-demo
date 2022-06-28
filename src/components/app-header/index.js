@@ -1,7 +1,7 @@
 import React, { memo } from "react";
 
 import { HeaderWrapper, HeaderLeft, HeaderRight } from "./style";
-import { headerLinks } from "../../common/local-data";
+import { headerLinks } from "@/common/local-data";
 import { NavLink } from "react-router-dom";
 
 function headerTab(item, index) {
